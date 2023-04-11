@@ -1,0 +1,56 @@
+
+.container{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid rgb(91, 190, 91); */
+}
+
+.containerGF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .container-1 {
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(240, 50, 81);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container-2 {
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(39, 20, 184);
+    border-radius: 10px;
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imageGF{
+    margin-right: 10px;
+  }
+
+  .signUpLabel{
+    padding: 0;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #or{
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-form-label img:hover {
+    cursor: pointer;
+    border: 1px solid green;
+  }
+  
